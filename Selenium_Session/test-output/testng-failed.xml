@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Automate concept]">
+  <test name="Differt Test cases Executed(failed)">
+    <classes>
+      <class name="com.testNG.TestNGBasicConcept">
+        <methods>
+          <include name="SetUp"/>
+          <include name="login"/>
+          <include name="EnetrURL"/>
+          <include name="LaunchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="Logout"/>
+          <include name="deleteallcookies"/>
+          <include name="generateTestReport"/>
+        </methods>
+      </class> <!-- com.testNG.TestNGBasicConcept -->
+      <class name="com.testNG.GoogleTest">
+        <methods>
+          <include name="gmaillink"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testNG.GoogleTest -->
+      <class name="com.testNG.AssertTestConcept">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.testNG.AssertTestConcept -->
+    </classes>
+  </test> <!-- Differt Test cases Executed(failed) -->
+</suite> <!-- Failed suite [TestNG Automate concept] -->

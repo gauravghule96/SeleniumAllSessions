@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Automate concept">
+  <test name="Differt Test cases Executed">
+  
+    <classes>
+    
+      <class name="com.testNG.AssertTestConcept" />
+      <class name="com.testNG.ExceptionTimOutTest" />
+      <class name="com.testNG.GoogleTest" />
+      <class name="com.testNG.InvocationCountTest" />
+      <class name="com.testNG.TestNGBasicConcept" />
+      <class name="com.testNG.TestNGFeatures" />
+      
+     </classes>
+      
+  </test>
+      
+</suite>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="21" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Automate concept" duration-ms="224804" started-at="2020-06-25T14:06:47Z" finished-at="2020-06-25T14:10:32Z">
+    <groups>
+      <group name="linkedtext()">
+        <method signature="GoogleTest.gmaillink()[pri:2, instance:com.testNG.GoogleTest@1b604f19]" name="gmaillink" class="com.testNG.GoogleTest"/>
+      </group> <!-- linkedtext() -->
+      <group name="logo">
+        <method signature="GoogleTest.googlelogo()[pri:3, instance:com.testNG.GoogleTest@1b604f19]" name="googlelogo" class="com.testNG.GoogleTest"/>
+      </group> <!-- logo -->
+      <group name="tilte">
+        <method signature="GoogleTest.getgoogletitle()[pri:1, instance:com.testNG.GoogleTest@1b604f19]" name="getgoogletitle" class="com.testNG.GoogleTest"/>
+      </group> <!-- tilte -->
+      <group name="Tests">
+        <method signature="GoogleTest.test1()[pri:4, instance:com.testNG.GoogleTest@1b604f19]" name="test1" class="com.testNG.GoogleTest"/>
+        <method signature="GoogleTest.test2()[pri:5, instance:com.testNG.GoogleTest@1b604f19]" name="test2" class="com.testNG.GoogleTest"/>
+        <method signature="GoogleTest.test3()[pri:6, instance:com.testNG.GoogleTest@1b604f19]" name="test3" class="com.testNG.GoogleTest"/>
+      </group> <!-- Tests -->
+    </groups>
+    <test name="Differt Test cases Executed" duration-ms="224804" started-at="2020-06-25T14:06:47Z" finished-at="2020-06-25T14:10:32Z">
+      <class name="com.testNG.InvocationCountTest">
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.testNG.InvocationCountTest@7823a2f9]" name="sum" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.testNG.InvocationCountTest@7823a2f9]" name="sum" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.testNG.InvocationCountTest@7823a2f9]" name="sum" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.testNG.InvocationCountTest@7823a2f9]" name="sum" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.testNG.InvocationCountTest@7823a2f9]" name="sum" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.testNG.InvocationCountTest -->
+      <class name="com.testNG.GoogleTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.testNG.GoogleTest@1b604f19]" name="SetUp" is-config="true" duration-ms="19416" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getgoogletitle()[pri:1, instance:com.testNG.GoogleTest@1b604f19]" name="getgoogletitle" duration-ms="8" started-at="2020-06-25T19:37:59Z" finished-at="2020-06-25T19:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getgoogletitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testNG.GoogleTest@1b604f19]" name="tearDown" is-config="true" duration-ms="684" started-at="2020-06-25T19:37:59Z" finished-at="2020-06-25T19:38:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.testNG.GoogleTest@1b604f19]" name="SetUp" is-config="true" duration-ms="21446" started-at="2020-06-25T19:38:00Z" finished-at="2020-06-25T19:38:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="FAIL" signature="gmaillink()[pri:2, instance:com.testNG.GoogleTest@1b604f19]" name="gmaillink" duration-ms="30210" started-at="2020-06-25T19:38:21Z" finished-at="2020-06-25T19:38:51Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"mail"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-39UJIFT', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\vaibh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e61369983c1eabaa1d6d8f7ba8f6d517
+*** Element info: {Using=link text, value=mail}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"mail"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-39UJIFT', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\vaibh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e61369983c1eabaa1d6d8f7ba8f6d517
+*** Element info: {Using=link text, value=mail}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.testNG.GoogleTest.gmaillink(GoogleTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmaillink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testNG.GoogleTest@1b604f19]" name="tearDown" is-config="true" duration-ms="711" started-at="2020-06-25T19:38:51Z" finished-at="2020-06-25T19:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.testNG.GoogleTest@1b604f19]" name="SetUp" is-config="true" duration-ms="22473" started-at="2020-06-25T19:38:52Z" finished-at="2020-06-25T19:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="googlelogo()[pri:3, instance:com.testNG.GoogleTest@1b604f19]" name="googlelogo" duration-ms="56" started-at="2020-06-25T19:39:14Z" finished-at="2020-06-25T19:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlelogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testNG.GoogleTest@1b604f19]" name="tearDown" is-config="true" duration-ms="713" started-at="2020-06-25T19:39:14Z" finished-at="2020-06-25T19:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.testNG.GoogleTest@1b604f19]" name="SetUp" is-config="true" duration-ms="23361" started-at="2020-06-25T19:39:15Z" finished-at="2020-06-25T19:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="test1()[pri:4, instance:com.testNG.GoogleTest@1b604f19]" name="test1" duration-ms="1" started-at="2020-06-25T19:39:39Z" finished-at="2020-06-25T19:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testNG.GoogleTest@1b604f19]" name="tearDown" is-config="true" duration-ms="727" started-at="2020-06-25T19:39:39Z" finished-at="2020-06-25T19:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.testNG.GoogleTest@1b604f19]" name="SetUp" is-config="true" duration-ms="24824" started-at="2020-06-25T19:39:39Z" finished-at="2020-06-25T19:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="test2()[pri:5, instance:com.testNG.GoogleTest@1b604f19]" name="test2" duration-ms="0" started-at="2020-06-25T19:40:04Z" finished-at="2020-06-25T19:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testNG.GoogleTest@1b604f19]" name="tearDown" is-config="true" duration-ms="716" started-at="2020-06-25T19:40:04Z" finished-at="2020-06-25T19:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.testNG.GoogleTest@1b604f19]" name="SetUp" is-config="true" duration-ms="26556" started-at="2020-06-25T19:40:05Z" finished-at="2020-06-25T19:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="test3()[pri:6, instance:com.testNG.GoogleTest@1b604f19]" name="test3" duration-ms="1" started-at="2020-06-25T19:40:31Z" finished-at="2020-06-25T19:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testNG.GoogleTest@1b604f19]" name="tearDown" is-config="true" duration-ms="697" started-at="2020-06-25T19:40:31Z" finished-at="2020-06-25T19:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testNG.GoogleTest -->
+      <class name="com.testNG.TestNGFeatures">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.testNG.TestNGFeatures@4cc0edeb]" name="loginTest" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="Registerpage()[pri:0, instance:com.testNG.TestNGFeatures@4cc0edeb]" name="Registerpage" duration-ms="0" started-at="2020-06-25T19:37:39Z" depends-on-methods="com.testNG.TestNGFeatures.loginTest" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registerpage -->
+        <test-method status="PASS" signature="homePagetest()[pri:0, instance:com.testNG.TestNGFeatures@4cc0edeb]" name="homePagetest" duration-ms="0" started-at="2020-06-25T19:37:39Z" depends-on-methods="com.testNG.TestNGFeatures.loginTest" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePagetest -->
+        <test-method status="PASS" signature="lgoutpage()[pri:0, instance:com.testNG.TestNGFeatures@4cc0edeb]" name="lgoutpage" duration-ms="0" started-at="2020-06-25T19:37:39Z" depends-on-methods="com.testNG.TestNGFeatures.loginTest" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lgoutpage -->
+      </class> <!-- com.testNG.TestNGFeatures -->
+      <class name="com.testNG.ExceptionTimOutTest">
+        <test-method status="PASS" signature="testException()[pri:0, instance:com.testNG.ExceptionTimOutTest@1593948d]" name="testException" duration-ms="3" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+	at com.testNG.ExceptionTimOutTest.testException(ExceptionTimOutTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testException -->
+      </class> <!-- com.testNG.ExceptionTimOutTest -->
+      <class name="com.testNG.AssertTestConcept">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.testNG.AssertTestConcept@482f8f11]" name="SetUp" is-config="true" duration-ms="26754" started-at="2020-06-25T19:36:47Z" finished-at="2020-06-25T19:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="getgoogletitle()[pri:0, instance:com.testNG.AssertTestConcept@482f8f11]" name="getgoogletitle" duration-ms="77" started-at="2020-06-25T19:37:14Z" finished-at="2020-06-25T19:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getgoogletitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testNG.AssertTestConcept@482f8f11]" name="tearDown" is-config="true" duration-ms="1218" started-at="2020-06-25T19:37:14Z" finished-at="2020-06-25T19:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.testNG.AssertTestConcept@482f8f11]" name="SetUp" is-config="true" duration-ms="20719" started-at="2020-06-25T19:37:15Z" finished-at="2020-06-25T19:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="googlelogo()[pri:0, instance:com.testNG.AssertTestConcept@482f8f11]" name="googlelogo" duration-ms="2416" started-at="2020-06-25T19:37:36Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlelogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testNG.AssertTestConcept@482f8f11]" name="tearDown" is-config="true" duration-ms="754" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testNG.AssertTestConcept -->
+      <class name="com.testNG.TestNGBasicConcept">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="SetUp" is-config="true" duration-ms="31" started-at="2020-06-25T19:36:47Z" finished-at="2020-06-25T19:36:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="LaunchBrowser" is-config="true" duration-ms="0" started-at="2020-06-25T19:36:47Z" finished-at="2020-06-25T19:36:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="login" is-config="true" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Nextpage()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="Nextpage" duration-ms="16" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nextpage -->
+        <test-method status="PASS" signature="EnetrURL()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="EnetrURL" is-config="true" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnetrURL -->
+        <test-method status="PASS" signature="Search()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="Search" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="EnetrURL()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="EnetrURL" is-config="true" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnetrURL -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="getTitle" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="Logout" is-config="true" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="EnetrURL()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="EnetrURL" is-config="true" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnetrURL -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="Logout" is-config="true" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="Logout" is-config="true" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="deleteallcookies()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="deleteallcookies" is-config="true" duration-ms="0" started-at="2020-06-25T19:37:39Z" finished-at="2020-06-25T19:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteallcookies -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-06-25T19:40:32Z" finished-at="2020-06-25T19:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="generateTestReport()[pri:0, instance:com.testNG.TestNGBasicConcept@51565ec2]" name="generateTestReport" is-config="true" duration-ms="0" started-at="2020-06-25T19:40:32Z" finished-at="2020-06-25T19:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestReport -->
+      </class> <!-- com.testNG.TestNGBasicConcept -->
+    </test> <!-- Differt Test cases Executed -->
+  </suite> <!-- TestNG Automate concept -->
+</testng-results>
