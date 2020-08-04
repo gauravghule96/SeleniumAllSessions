@@ -1,0 +1,396 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1177500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 158700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.setUp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 96400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.beforefirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 193500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HoookStepDefinitons.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "This is a first test",
+        "description": "",
+        "id": "facebook-test-application;this-is-a-first-test",
+        "after": [
+          {
+            "result": {
+              "duration": 103900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.afterfirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HoookStepDefinitons.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 87700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 91400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 954215300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "this is first step",
+            "match": {
+              "location": "TagHooks_StepDef.this_is_first_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "this is second step",
+            "match": {
+              "location": "TagHooks_StepDef.this_is_second_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "this is third step",
+            "match": {
+              "location": "TagHooks_StepDef.this_is_third_step()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 384100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 293300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.setUp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 105500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.beforesecond()"
+            }
+          },
+          {
+            "result": {
+              "duration": 102800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HoookStepDefinitons.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "This is a second test",
+        "description": "",
+        "id": "facebook-test-application;this-is-a-second-test",
+        "after": [
+          {
+            "result": {
+              "duration": 107400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.aftersecond()"
+            }
+          },
+          {
+            "result": {
+              "duration": 86600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HoookStepDefinitons.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 65500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 102300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "this is first step",
+            "match": {
+              "location": "TagHooks_StepDef.this_is_first_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "this is second step",
+            "match": {
+              "location": "TagHooks_StepDef.this_is_second_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "this is third step",
+            "match": {
+              "location": "TagHooks_StepDef.this_is_third_step()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Second"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 249200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 100100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.setUp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 258400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.beforethird()"
+            }
+          },
+          {
+            "result": {
+              "duration": 223800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HoookStepDefinitons.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "This is a Third test",
+        "description": "",
+        "id": "facebook-test-application;this-is-a-third-test",
+        "after": [
+          {
+            "result": {
+              "duration": 319000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.afterthird()"
+            }
+          },
+          {
+            "result": {
+              "duration": 279900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HoookStepDefinitons.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 247700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 133200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagHooks_StepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "this is first step",
+            "match": {
+              "location": "TagHooks_StepDef.this_is_first_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "this is second step",
+            "match": {
+              "location": "TagHooks_StepDef.this_is_second_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "this is third step",
+            "match": {
+              "location": "TagHooks_StepDef.this_is_third_step()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Third"
+          }
+        ]
+      }
+    ],
+    "name": "FaceBook Test application",
+    "description": "",
+    "id": "facebook-test-application",
+    "keyword": "Feature",
+    "uri": "E:/workspace2/CucumberProject(Java)/src/Features/Taghooks.feature"
+  }
+]

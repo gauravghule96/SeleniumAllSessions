@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.959487">
+<testcase classname="FaceBook Test application" name="This is a first test" time="0.956243">
+<system-out><![CDATA[Given this is first step....................................................passed
+When this is second step....................................................passed
+Then this is third step.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FaceBook Test application" name="This is a second test" time="0.00134">
+<system-out><![CDATA[Given this is first step....................................................passed
+When this is second step....................................................passed
+Then this is third step.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FaceBook Test application" name="This is a Third test" time="0.001904">
+<system-out><![CDATA[Given this is first step....................................................passed
+When this is second step....................................................passed
+Then this is third step.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
